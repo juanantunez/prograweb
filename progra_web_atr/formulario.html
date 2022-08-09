@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formu</title>
+<body>
+
+    <!--aca pongo los INPUT mas utilizados -->
+    <form> <!--delimita un formulario de una pagina web -->
+        Nombre:<input type="text" name="txt Nombre"><!--rellena normal (lo puedo usar tambien para mail xej)-->
+
+        Mail:<input name="email" type="email"> <!--misma dinamica que para nombre -->
+
+        Password:<input type="password" name="password"><br> <!--cuando escribis se rellena con puntitos-->
+
+        <input name="info" type="checkbox">Quiero recibir informacion<br> <!--texto cualquiera, le podes poner tick o no-->
+
+        Fecha de Nacimiento:<input name="FechaNac" type="date"><br><!--para fecha con sus opciones de dia mes año -->
+
+        <input name="sexo" type="radio" value="Masculino">Masculino<br><!--seleccionar enre 3 opciones -->
+        <input name="sexo" type="radio" value="Femenino">Femenino<br>
+        <input name="sexo" type="radio" value="Otro">Otro<br>
+
+        seleccione la imagen<input name="foto" type="file"> <!--para seleccionar algun archivo y subirlo alli-->
+<!-- -->
+    </form>
+    <!--ACA PONGO EL TEXTAREA -->
+    <form>
+        Hobbies<br>
+        <textarea name="hobbies" rows="10" cols="50"> ingrese aqui sus hobbies</textarea> <!--es un enunciado donde se deja un espacio para escribir (de las filas y columnas delimitadas), se indica donde escribir -->
+    </form>
+
+    <!--ACA PONGO LOS SELECT Y OPTION -->
+    <form>
+        <!--Combobox #tocas la flechita y te salen todas las opciones->Y podes seleccionae solo una-->
+        Indique su opcion favorita:
+        <select name="colores":>
+            <option value="ro">Rojo</option>
+            <option value="az">Azul</option>
+            <option value="ve">Verde</option>
+        </select>
+
+        <!--Selected:#te muestra todas las opciones se entrada y podes seleccionar varias -->
+        Seleccione su opcion favorita:<br>
+        <select name="colores" multiple>
+            <option value="ro">Rojo</option>
+            <option value="az" selected>Azul</option> <!--esto es si quiero dejar una seleccionada por default-->
+            <option value="ve">Verde</option>
+        </select>
+
+
+    <!--PREGUNTAAAA->no entendi para q sirve el action ni el min y xq poner o no los tab-->
+    <!-- ACA PONGO EL EJ DE FORMULARIO QUE NOS DIO EL PROF-->
+    </form>  
+    <form action=""> <!--delimita un formulario de una pagina web -->
+        <fieldset> <!--representa una agrupacion de elementos de un formulario -->
+            <legend> Informacion Personal</legend> <!--indica el titulo del "fieldset"-->
+            <label for="Nombre"> Nombre: </label> <input name="Nombre" type="text" id=""> <!--label define el titulo de cada dato a ingresar-->
+            <label for="Apellido"> Apellido: </label> <input name="Apellido" type="text" id="" >
+            <label for="FechaNac"> Fecha de Nacimiento: </label> <input name="FechaNac" type="date" id="" min="1920/01/01">
+        </fieldset>
+
+        <input type="submit" value="enviar"><!--es un boton q dice enviar-->
+    
+    
+
+    <!--esto es lo mismo q puso el prof pero con tabindex-->
+    <form> <!--delimita un formulario de una pagina web -->
+        <fieldset> <!--representa una agrupacion de elementos de un formulario -->
+            <legend> Informacion Personal</legend> <!--indica el titulo del "fieldset"-->
+            <label for="Nombre"> Nombre: </label> <input name="Name" type="text" tabindex="1">
+            <label for="Apellido"> Apellido: </label> <input name="Apellido" type="text" tabindex="2">
+            <label for="FechaNac"> Fecha de Nacimiento: </label> <input name="FechaNac" type="date" tabindex="3">
+        </fieldset>
+    <!--estas son otras etiquetas de formulario -->
+        <fieldset>
+            <legend> Informacion de la Compra</legend>
+            <label for="Producto"> Producto: </label> <input name="Producto" type="text" tabindex="4">
+            <label for="Cantidad"> Cantidad: </label> <input name="Cantidad" type="number" tabindex="5">
+            <label for="Monto"> Monto: </label> <input name="Monto" type="number" tabindex="6">
+        </fieldset>
+    </form>
+</body>
+</html>
