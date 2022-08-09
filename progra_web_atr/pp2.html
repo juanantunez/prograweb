@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mi pagina</title>
+        <link rel="stylesheet" href="mi_pagina.css">
+    </head>
+
+    <body>
+        <div>
+            <nav class="menu">
+                <h1> Laura Pico art</h1>
+                <img src="./WhatsApp Image 2022-08-09 at 11.42.31 AM.jpeg" alt="" width="200px" img>
+                <ul>
+                    <li><a href="https://instagram.com/laupico.art?igshid=YmMyMTA2M2Y=">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="main">
+            <div>
+                <video src="./WhatsApp Video 2022-08-09 at 11.33.15 AM.mp4" autoplay muted loop with="200px" type="video/mp4">
+                    Tu navegador no admite el elemento <code>video</code>
+                </video>
+            <p>
+                Un poco de BADA Mexico 2022...
+            </p>
+            <button id ="btnPpl">
+                Click
+            </button>
+            </div>
+        </section>
+
+        <table  border="6 px solid" > <!--para bordes de tablita mas gruesos -->
+            <thead> <!--encabezado -->
+                <tr> <!--define cada una de las filas -->
+                    <th>profesion</th> <!--para poner el nombre -->
+                    <th>NOMBRE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <!--contenido -->
+                        Escultora
+                    </td>
+                    <td>
+                        Laura Pico
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            Comentarios <br>
+            <textarea name="hobbies" rows="10" cols="50"> ingrese aqui sus comentarios</textarea> <!--es un enunciado donde se deja un espacio para escribir (de las filas y columnas delimitadas), se indica donde escribir -->
+        </form>
+        <form> <!--delimita un formulario de una pagina web -->
+            Nombre:<input type="text" name="txt Nombre"><!--rellena normal (lo puedo usar tambien para mail xej)-->
+    
+            Mail:<input name="email" type="email"> <!--misma dinamica que para nombre -->
+        </form>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
