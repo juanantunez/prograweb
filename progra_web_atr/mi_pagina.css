@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: blue;
+
+}
+h1{
+        background-color: red;/* selecciono color de fondo */
+        width: 40%;              /*pongo % que cuanto mas grande sea nro, mas espacio hacia la derecha se ampliara el recuadro de h1  */
+        margin-left: -1%;        /* #espacio a izquierda  del recuadro de h1 en conjunto con sus letras(si pongo valor negativo es al reves, es decir, le quita espacio de la izq) aux: margin es distancia entre margen exterior y recuadro especifico con sus letras */
+        height: 67px;            /* agranda el alto del recuadro de h1 */
+        padding-top: 5px;        /* distancia que deja  a izq antes dentro de recuadro de h1 antes q empieze texto de h1  aux:padding es distancia que deja entre recuadro que estoy creando y el texto que le meto(o fotos, etc) */
+        padding-left: 20px;      /* ( distancia que deja  a izq antes dentro de recuadro de h1 antes q empieze texto de h1) */
+        font-size: 44px;         /* (agranda la letra del texto que esta dentro de h1)
+        */
+    }
+
+img{
+    width: 50%;
+    height: 50%;
+    padding-left: 250px
+
+}
+video{
+    width: 20%;
+    height: 20%;
+    padding-left: 750px
+    
+}
+p{
+    padding-left: 750px
+}
+
+
+
+
