@@ -2,20 +2,34 @@ body{
     margin: 0px}
 
 
-#main{
-    background-color: brown;
-}
 nav{
     background-color: #00ffff;
     display: flex;
-    width: 80%;
+    width: 200vw;
     margin: auto
+}
+nav h1{
+    margin: auto;
+    text-align: center;
+    margin-left: 450px;
+    font-size: 7em;
+    color:black;  
+    font-weight: bold;
+}
+
+.mboton{
+    background-color: #00ffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10%;
+    padding-right: 1px
 }
 nav ul{
     display: flex
 }
 nav li{
-    margin-left: 20px;
+    margin-left: 50px;
     list-style: none;
 }
 
@@ -31,23 +45,22 @@ nav a:hover{
 
 nav img{
     display: flex;
-    height: 250px;
+    height: 100px;
     width: auto
-    
 }
-.mboton{
-    background-color: blueviolet;
+#main{background-color: brown;
     display: flex;
+    margin: auto
+    }
+
+.medio{ 
+    background-color: blueviolet;
+    display : flex;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    padding-right: 200px
+    padding-right: 1px
 }
 
-.container video{ 
-    width: 20vw;
-    padding-left: 700px;
-}
-.container p{ 
-    padding-left: 700px;
-}
+    
+
