@@ -43,3 +43,11 @@ nav img{
     width: 100%;
     padding-right: 200px
 }
+
+.container video{ 
+    width: 20vw;
+    padding-left: 700px;
+}
+.container p{ 
+    padding-left: 700px;
+}
