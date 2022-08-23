@@ -6,18 +6,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>mi pagina</title>
-        <link rel="stylesheet" href="./mi_pagina.css">
+        <link rel="stylesheet" href="./mi_pagina.css"> <!-- -->
     </head>
 
     <body>
         <div>
-            <nav class="menu">
-                <img src="./logo laura.png" alt="" width="200px" img> 
+            <nav class="menu">  <!-- -->
+                <img src="assets/img/logo_laura.png" alt="" width="200px" img> 
                 <div class="titulo">
                 <h1>LAURA PICO</h1>
                 </div>
                 <div class="mboton">
-                <ul>
+                <ul>  <!--abro una lista -->
                     <li><a href="https://instagram.com/laupico.art?igshid=YmMyMTA2M2Y=">Instagram</a></li>
                     <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSHxwVvcrWQkCzxSrNRksCvtVbnzpChPfNPWcFszbVsXgwRXjNgXRKsvRGSpVmjDdJKhWdWR">Mail</a></li>
                     <li><a href="https://bada.com.ar/">Bada</a></li>
@@ -29,15 +29,15 @@
         <section id="main" class="container">
             <div>
                 <div class="medio">
-
-                <video src="./WhatsApp Video 2022-08-09 at 11.33.15 AM.mp4" autoplay muted loop with="200px" type="video/mp4">
+                <!-- -->
+                <video src="assets/videos/WhatsApp Video 2022-08-09 at 11.33.15 AM.mp4" autoplay muted loop with="200px" type="video/mp4">
                     Tu navegador no admite el elemento <code>video</code>
                 </video>
                 <h2>
                     ESCULTORA ARGENTINA.<br><br>Mi obra se distingue por la expresión de la sutileza y el movimiento en la captura de situaciones profundas y comprometidas <br><br>
                 Mi motor es el despertar de las emociones para conectar con mi ser mas profundo.</h2>
                 </div>
-                <img src="./laura_trabajando.png" alt="" width="500px" height="500px" img>
+                <img src="assets/img/laura_trabajando.png" alt="" width="500px" height="500px" img>
             </div>
         </section>
 
@@ -73,5 +73,116 @@
     
             Mail:<input name="email" type="email"> <!--misma dinamica que para nombre -->
         </form>
-    <!-- Code injected by live-server -->
+    </body>
+
+
+
+
+
+body{
+    margin: 0px}
+
+
+nav{
+    background-color: #00ffff;
+    display: flex;
+    width: 200vw;
+    margin: auto
+}
+nav h1{
+    margin: auto;
+    text-align: center;
+    margin-left: 450px;
+    font-size: 7em;
+    color:black;  
+    font-weight: bold;
+}
+
+.mboton{
+    background-color: #00ffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10%;
+    padding-right: 1px
+}
+nav ul{
+    display: flex
+}
+nav li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: None;
+    color: black
+}
+nav a:hover{
+    color:green
+
+
+}
+
+nav img{
+    display: flex;
+    height: 100px;
+    width: auto
+}
+#main{background-color: brown;
+    display: flex;
+    margin: auto
+    }
+
+.medio{ 
+    background-color: blueviolet;
+    display : flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 1px
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+aux:
+        <table  border="6 px solid" > <!--para bordes de tablita mas gruesos -->
+            <thead> <!--encabezado -->
+                <tr> <!--define cada una de las filas -->
+                    <th>profesion</th> <!--para poner el nombre -->
+                    <th>NOMBRE</th>
+                </tr>
+            </thead>
+            <tbody><!-- -->
+                <tr>
+                    <td> <!--contenido -->
+                        Escultora
+                    </td>
+                    <td>
+                        Laura Pico
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            Comentarios <br>
+            <textarea name="hobbies" rows="10" cols="50"> ingrese aqui sus comentarios</textarea> <!--es un enunciado donde se deja un espacio para escribir (de las filas y columnas delimitadas), se indica donde escribir -->
+        </form>
+        <form> <!--delimita un formulario de una pagina web -->
+            Nombre:<input type="text" name="txt Nombre"><!--rellena normal (lo puedo usar tambien para mail xej)-->
+    
+            Mail:<input name="email" type="email"> <!--misma dinamica que para nombre -->
+        </form>
     </body>
