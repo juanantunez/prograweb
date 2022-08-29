@@ -5,12 +5,14 @@
 
 
 body{
-    margin: 0px}
+    margin: 0px;
+}
+
   /* botones uno al lado del otro*/
 nav{
     background-color: rgb(63, 25, 101);
     display: flex;
-    margin: auto
+    margin: auto;
 }
 
 /*
@@ -58,6 +60,15 @@ tanto margin como padding tienen esta dinamica :
 al ingresar 4 porcentajes: nro1%(alto) nro2%(der) nro3%(abajo) nro4%(izq)#nro1 es el alto
 al ingresar 2 porcentajes:nro1%(lo que deja a arriba y lo que deja abajo) nro2%(lo que deja a der y lo que deja a izq)*/
 
+
+.container{
+    background-image: url("./assets/img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+
+}
 
 nav ul{
     display: flex;/* botones uno al lado del otro*/

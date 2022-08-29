@@ -32,14 +32,14 @@
                 </div>
                 <div class="col-3" style="background-color: rgba(129, 113, 98, 0.889);;">
                     <nav>
-                        <div class="mboton-fluid">
+                        <div class="row">
                         <ul>  <!--abro una lista y le meto todos los links-->
                             <li><a href="https://instagram.com/laupico.art?igshid=YmMyMTA2M2Y="><button type="button" class="btn btn-secondary">Instagram</button></a></li>
 
                             <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSHxwVvcrWQkCzxSrNRksCvtVbnzpChPfNPWcFszbVsXgwRXjNgXRKsvRGSpVmjDdJKhWdWR"><button type="button" class="btn btn-secondary">Mail</button></a></li>
 
 
-                            <li><a href="contact.html"><button type="button" class="btn btn-secondary">Contacto</button></a></li>
+                            <li><a href="https://bada.com.ar/"><button type="button" class="btn btn-secondary">Contacto</button></a></li>
                         </ul>
                         <!--ul #lista desordenada   a# accion d un link  href#referencia a hipervinculo (link)   li #cada linea de la lista -->
                         </div> 
@@ -48,31 +48,54 @@
                     
                 </div>
             </div>
-        </div>
+        
 
-    </div>
-
-
-    
-    <div class="container-fluid">  <!-- fluid significa q ocupa el 100% de la pantalla ->Tiene 12 columnas total-->
-        <div class="container">    <!--Cada vez q aplicamos un container a este lo divide en 12 columnas-->
-            <div class="row">      <!-- row=fila al ponerle esto me hace todo una misma fila, de lo contrario me pone una bajo la otra -->
-                <div class="col-3" style="background-color: rgb(63, 25, 101) ;">  <!--aca las primeras 6 filas estaran de este color -->
-                    <img  id="esc1"src="assets/img/escultura1.png" img width="100%"></div>
-                <div class="col" style="background-color: rgb(224, 218, 212);">
-                    <h2>ESCULTORA ARGENTINA.<br><br>Mi obra se distingue por la expresión de la sutileza y el movimiento en la captura de situaciones profundas y comprometidas. <br><br>
-                        Mi motor es el despertar de las emociones para conectar con mi ser mas profundo.</h2>  
-                    
-                </div>
-                <div class="col-3" style="background-color: rgb(63, 25, 101);">
-                    <img id="trab1" src="assets/img/laura_trabajando.png" img width="100%" >
-                    
-                </div>
+        <form class="row g-3">
+            <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Mail</label>
+            <input type="email" class="form-control" id="inputEmail4">
             </div>
-        </div>
-
+            <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+            <label for="inputAddress" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="inputAddress" >
+            </div>
+            <div class="col-12">
+            <label for="inputAddress2" class="form-label">Direccion 2</label>
+            <input type="text" class="form-control" id="inputAddress2" >
+            </div>
+            <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+            <label for="inputState" class="form-label">Estado</label>
+            <select id="inputState" class="form-select">
+                <option selected>Elegir...</option>
+                <option>...</option>
+            </select>
+            </div>
+            <div class="col-md-2">
+            <label for="inputZip" class="form-label">Codigo postal</label>
+            <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                Suscribirse
+                </label>
+            </div>
+            </div>
+            <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </form>
     </div>
-
+</div>
 
 
 
