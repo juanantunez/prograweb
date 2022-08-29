@@ -39,7 +39,7 @@
                             <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSHxwVvcrWQkCzxSrNRksCvtVbnzpChPfNPWcFszbVsXgwRXjNgXRKsvRGSpVmjDdJKhWdWR"><button type="button" class="btn btn-secondary">Mail</button></a></li>
 
 
-                            <li><a href="https://bada.com.ar/"><button type="button" class="btn btn-secondary">Contacto</button></a></li>
+                            <li><a href="contact.html"target="_blank"><button type="button" class="btn btn-secondary">Contacto</button></a></li>
                         </ul>
                         <!--ul #lista desordenada   a# accion d un link  href#referencia a hipervinculo (link)   li #cada linea de la lista -->
                         </div> 
@@ -48,52 +48,56 @@
                     
                 </div>
             </div>
-        
+        <div class="row" style="margin-top:20px ;"> 
+            <div class="col" >
+                <form  class="row g-3">
+                    <div class="col-md-6" >
+                    <label for="inputEmail4" class="form-label">Mail</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                    <label for="inputAddress" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="inputAddress" >
+                    </div>
+                    <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Direccion 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" >
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                    <label for="inputState" class="form-label">Estado</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Elegir...</option>
+                        <option>...</option>
+                    </select>
+                    </div>
+                    <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Codigo postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                        Suscribirse
+                        </label>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Registrarse</button>
+                    </div>
+                </form>
 
-        <form class="row g-3">
-            <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Mail</label>
-            <input type="email" class="form-control" id="inputEmail4">
             </div>
-            <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-            <label for="inputAddress" class="form-label">Direccion</label>
-            <input type="text" class="form-control" id="inputAddress" >
-            </div>
-            <div class="col-12">
-            <label for="inputAddress2" class="form-label">Direccion 2</label>
-            <input type="text" class="form-control" id="inputAddress2" >
-            </div>
-            <div class="col-md-6">
-            <label for="inputCity" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-            <label for="inputState" class="form-label">Estado</label>
-            <select id="inputState" class="form-select">
-                <option selected>Elegir...</option>
-                <option>...</option>
-            </select>
-            </div>
-            <div class="col-md-2">
-            <label for="inputZip" class="form-label">Codigo postal</label>
-            <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                Suscribirse
-                </label>
-            </div>
-            </div>
-            <div class="col-12">
-            <button type="submit" class="btn btn-primary">Registrarse</button>
-            </div>
-        </form>
+           
+        </div>
     </div>
 </div>
 
