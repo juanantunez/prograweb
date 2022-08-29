@@ -10,7 +10,6 @@ body{
 
   /* botones uno al lado del otro*/
 nav{
-    background-color: rgb(63, 25, 101);
     display: flex;
     margin: auto;
 }
@@ -74,7 +73,7 @@ nav ul{
     display: flex;/* botones uno al lado del otro*/
     margin-top: 7%;
 padding-top: 3%;
-padding-left: 7%;}     
+padding-left: 2%;}     
 
 nav li{
     margin-left: 2%;   /* dsitancia entre botones */
