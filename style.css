@@ -60,6 +60,8 @@ al ingresar 4 porcentajes: nro1%(alto) nro2%(der) nro3%(abajo) nro4%(izq)#nro1 e
 al ingresar 2 porcentajes:nro1%(lo que deja a arriba y lo que deja abajo) nro2%(lo que deja a der y lo que deja a izq)*/
 
 
+
+/*
 .container{
     background-image: url("./assets/img/fondo2.jpg");
     background-repeat: no-repeat;
@@ -68,6 +70,7 @@ al ingresar 2 porcentajes:nro1%(lo que deja a arriba y lo que deja abajo) nro2%(
 
 
 }
+*/
 
 nav ul{
     display: flex;/* botones uno al lado del otro*/
