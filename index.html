@@ -10,65 +10,58 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Lau Pico ART</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <link rel="stylesheet" href="./styleNuevaNavbar.css"> <!-- -->
+    <link rel="stylesheet" href="./style.css"> <!-- -->
 
-    <script>
-        var edad=37;
-        if(edad>=18){
-            console.log("es mayor" + "valor:" +edad);
-            alert("es mayor" + "valor:" +edad);
-            document.write("es mayor" + "valor:" +edad)
-        }else
-            console.log("es menor") 
-            alert("es menor" + "valor:" +edad);
-            document.write("es menor" + "valor:" +edad)
 
-    </script>
 </head>
 
 <body>
 
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="./assets/img/logo_laura.png" width="50%"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <button type="button" class="btn btn-secondary">Home</button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://instagram.com/laupico.art?igshid=YmMyMTA2M2Y="target="_blank">
-                            <button type="button" class="btn btn-secondary">Instagram</button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSHxwVvcrWQkCzxSrNRksCvtVbnzpChPfNPWcFszbVsXgwRXjNgXRKsvRGSpVmjDdJKhWdWR"target="_blank">
-                            <button type="button" class="btn btn-secondary">Mail</button>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"target="_blank">
-                            <button type="button" class="btn btn-secondary">Contacto</button>
-                        </a>
-                    </li>
+            <div class="container">
+                <!--Cada vez q aplicamos un container a este lo divide en 12 columnas-->
+                <div class="row">
+            <!-- <div class="d-md-none"> -->
+                    <a class="navbar-brand; col-3" href="#" style="background-color:rgba(129, 113, 98, 0.889);"> <img src="./assets/img/logo_laura.png" class="d-none d-sm-block" width="40%" height="auto" > </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <!-- </div> -->
+                    <div class=".d-sm-none .d-block; col-5" style="background-color:rgba(129, 113, 98, 0.889);">
+                        <h1>LAURA PICO</h1>
+                    </div>
+                    <div class="collapse navbar-collapse ; col-4" style="background-color:rgba(129, 113, 98, 0.889);" id="navbarSupportedContent" >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://instagram.com/laupico.art?igshid=YmMyMTA2M2Y="target="_blank">
+                                    <button type="button" class="btn btn-secondary">Instagram</button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSHxwVvcrWQkCzxSrNRksCvtVbnzpChPfNPWcFszbVsXgwRXjNgXRKsvRGSpVmjDdJKhWdWR"target="_blank">
+                                    <button type="button" class="btn btn-secondary">Mail</button>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html"target="_blank">
+                                    <button type="button" class="btn btn-secondary">Contacto</button>
+                                </a>
+                            </li>
 
-                </ul>
-
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
-
 
     <div class="container-fluid">
         <!-- fluid significa q ocupa el 100% de la pantalla ->Tiene 12 columnas total-->
@@ -78,19 +71,19 @@
                 <!-- row=fila al ponerle esto me hace todo una misma fila, de lo contrario me pone una bajo la otra -->
                 <div class="col-3" style="background-color: rgb(63, 25, 101) ;">
                     <!--aca las primeras 6 filas estaran de este color -->
-                    <img id="esc1" src="assets/img/escultura1.png" class="img-fluid" img width="%100" height="auto">
+                    <img id="esc1" src="assets/img/trabajando_2.png" img  class="d-none d-sm-block" width="100%" height="auto">
                 </div>
-                <div class="col" style="background-color: rgb(224, 218, 212);">
+
+                <div class="col-6" style="background-color: rgb(224, 218, 212);">
                     <h2>ESCULTORA ARGENTINA.<br><br>Mi obra se distingue por la expresión de la sutileza y el movimiento
                         en
                         la captura de situaciones profundas y comprometidas. <br><br>
                         Mi motor es el despertar de las emociones para conectar con mi ser mas profundo.</h2>
 
                 </div>
-                <div class="col-3" style="background-color: rgb(63, 25, 101);">
-                    <img id="trab1" src="assets/img/laura_trabajando.png" img width="100%" height="auto">
-
-                </div>
+                <div class="col-3" style="background-color: rgb(63, 25, 101) ">
+                    <img id="trab1" src="assets/img/laura_trabajando.png" img class="d-none d-sm-block" width="100%" height="auto">
+                </div>              
             </div>
         </div>
 
@@ -104,47 +97,48 @@
                     <div class="card animate__animated animate__swing">
                         <img src="./assets/img/escultura1.png" class="card-img.top" height="300px" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">INVENCIBLE</h5>
+                            <p class="card-text">Siempre firme por más grande que pueda
+                                parecer ese invisible monstruo, ella no
+                                abandona porque simplemente es
+                                “Invencible”.</p>
+                            <a href="#" class="btn btn-primary">Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/img/escultura_2.png" class="card-img-top" height="300px" alt="...">
+                        <img src="./assets/img/escultura_5.png" class="card-img-top" width="100%"   height="300px" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="GUGO">Card title</h5>
+                            <p class="card-text">Protección y sabiduría.</p>
+                            <a href="#" class="btn btn-primary">Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/img/laura_trabajando.png" class="card-img-top" height="300px" alt="...">
+                        <img src="./assets/img//escultura_3.png" class="card-img-top" height="300px" width="100%" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">ROMPIENDO ATADURAS</h5>
+                            <p class="card-text">Cuando alguien se va de este
+                                plano, su alma despierta, ya no
+                                hay límites, ni sufrimiento.</p>
+                            <a href="#" class="btn btn-primary">Detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="./assets/img/trabajando_2.png" class="card-img-top" height="300px" alt="...">
+                        <img src="./assets/img/escultura_4.png" class="card-img-top" height="300px" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to
-                                additional content. This content is a little bit longer.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">TRANSFORMANDO
+                                IMPOSIBLES</h5>
+                            <p class="card-text">Una pesada roca se siente con la
+                                levedad de un globo. cuando
+                                nuestra evolución nos permite
+                                reenfocar y superar.</p>
+                            <a href="#" class="btn btn-primary">Detalles</a>
                         </div>
                     </div>
                 </div>
