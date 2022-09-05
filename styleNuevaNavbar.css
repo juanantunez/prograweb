@@ -1,0 +1,115 @@
+
+
+
+/*  */
+
+
+body{
+    margin: 0px;
+}
+
+  /* botones uno al lado del otro*/
+/* nav{
+    display: flex;
+    margin: auto;
+} */
+
+/*
+nav h1{
+    margin: auto;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 7em;
+    color:black;  
+    font-weight: bold;
+}
+
+
+.mboton{
+    background-color:  #b200eee3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex
+}
+nav li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: None;
+    color: black;
+    font-size: 28px;
+}
+nav a:hover{
+    color:green
+
+
+}
+*/
+
+
+/*  auxiliar:
+#margin es distancia entre margen exterior y recuadro especifico con sus letras
+#padding es distancia que deja entre recuadro que estoy creando y el texto que le meto(o fotos, etc)
+tanto margin como padding tienen esta dinamica :
+al ingresar 4 porcentajes: nro1%(alto) nro2%(der) nro3%(abajo) nro4%(izq)#nro1 es el alto
+al ingresar 2 porcentajes:nro1%(lo que deja a arriba y lo que deja abajo) nro2%(lo que deja a der y lo que deja a izq)*/
+
+
+
+/*
+.container{
+    background-image: url("./assets/img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+
+}
+*/
+
+/* nav ul{
+    display: flex;
+    margin-top: 7%;
+padding-top: 3%;
+padding-left: 2%;}     
+
+nav li{
+    margin-left: 2%;  
+    list-style: none;} */
+
+nav img{
+    height: 100px;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 1em;
+    color:white;  
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 1em;
+    align-content: center;
+    padding-top: 5%;
+}
+#trab1{
+    margin-top: 10%;
+}
+#esc1{
+    padding: 10%;
+
+
+}
+/* #papa{margin-top: 20px;}*/
+
+
