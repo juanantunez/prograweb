@@ -72,15 +72,19 @@ al ingresar 2 porcentajes:nro1%(lo que deja a arriba y lo que deja abajo) nro2%(
 }
 */
 
-nav ul{
-    display: flex;/* botones uno al lado del otro*/
+/* nav ul{
+    display: flex;
     margin-top: 7%;
 padding-top: 3%;
 padding-left: 2%;}     
 
 nav li{
-    margin-left: 2%;   /* dsitancia entre botones */
-    list-style: none;}
+    margin-left: 2%;  
+    list-style: none;} */
+
+nav img{
+    height: 100px;
+}
 
 h1{
     margin: auto;
