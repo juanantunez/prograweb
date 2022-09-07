@@ -91,17 +91,29 @@ h2{
     font-size: 1em;
     align-content: center;
     padding-top: 5%;
+    padding: 2% 0% 1% 3%;
 }
-#trab1{
+/* 
+p{padding: 0% 20% 0% 30%;} */
+/*#trab1{
     margin-top: 10%;
-}
-#esc1{
+}*/
+#trab1{
     padding: 10%;
 
 
 }
 
+#trab2{
+    padding: 10%;
 
+
+}
+
+video{padding-top: 15% ;padding-left: 4%;}
+
+
+#cv{border-radius: 50%;width: 100px; height: 100px;}
 
 
 /* #papa{margin-top: 20px;}*/
