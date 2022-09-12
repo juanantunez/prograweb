@@ -49,3 +49,35 @@ dentro del script
 
     for(let i=0; i<unArray.length; i++) //i++  =    i=i+1        a+=b   a=a+b
         document.write("valores de array: "+unArray[i]+"<br>");
+
+dentro del script
+    
+    var persona={
+        nombre: "Pedro",
+        apellido:"Juarez",
+        edad:38,
+        email: "hola@gmail.com"
+    }
+
+    console.log(persona);
+    console.log("el nombre de la persona es: "+persona.nombre);
+    console.log("el apellido de la persona es: "+persona["apellido"]);
+
+    for(atributo in persona)
+        document.write("el valor del atributo es " +persona[atributo]+"<br>");
+
+
+dentro del script
+
+        let cancelar=prompt("ar al catch");       //si campo da si, finaliza ok, si da error me lo identifica
+    try{
+        if(cancelar=="si")
+            throw "cancelar ejecucion";
+    
+        if(cancelar=="")
+            throw "esta vacio"
+        
+        console.log("finalizamos OK");}
+    catch(e){
+        console.log("error", e);
+    }

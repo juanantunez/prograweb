@@ -117,3 +117,7 @@ video{padding-top: 15% ;padding-left: 4%;}
 
 
 /* #papa{margin-top: 20px;}*/
+
+#escal{background-image: url("assets/img/escal.jpeg");
+background-image: "no-repeat";
+background-size: 100%;}
