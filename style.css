@@ -133,5 +133,14 @@ background-size: 100%;}
 #escal4{background-image: url("assets/img/escal.jpeg");
     background-image: "no-repeat";
     background-size: 100%;}
+    
+    
+#formCont{
+        padding: 2em;
+        background-color:  rgb(224, 218, 212);
 
-form{background-color:  rgb(224, 218, 212);;}
+    
+}
+#fond1{
+    background-image: url("assets/img/escultura_3.png");
+}
